@@ -1,0 +1,23 @@
+body {
+  background-color: #bdc3c7; }
+
+#board {
+  margin: 0 auto;
+  background-color: #2c3e50;
+  width: 80vmin; }
+  #board .cell {
+    width: 10vmin;
+    height: 10vmin;
+    padding: 0 0;
+    border-radius: 50%;
+    background-color: #bdc3c7; }
+    #board .cell .slot {
+      width: 10vmin;
+      height: 10vmin;
+      border-radius: 50%; }
+      #board .cell .slot.red {
+        background: radial-gradient(circle at 7vmin 7vmin, #e74c3c, #862319); }
+      #board .cell .slot.green {
+        background: radial-gradient(circle at 7vmin 7vmin, #1abc9c, #0F5F4F); }
+
+/*# sourceMappingURL=styles.css.map */
